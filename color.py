@@ -19,7 +19,7 @@ def countdown():
         tim.configure(text = "Time: "+ str(time))
         tim.after(1000,countdown)
 
-def nextColor(): #otan mia def einai se bind, thelei event
+def nextColor(): 
      global score
      if time > 0 :
          a = ol.get()
@@ -27,7 +27,7 @@ def nextColor(): #otan mia def einai se bind, thelei event
              score += 1
              print(score)
              scor.configure(text ="Score: " + str(score))
-         random.shuffle(colors)  # anakateuei th lista
+         random.shuffle(colors)  
          Color.configure(text=colors[0], fg=colors[1])
 
 
@@ -42,8 +42,8 @@ scor.pack()
 tim.pack()
 Color.pack()
 ol.pack()
-ol.focus_set() # o kersoras paei ekei akrivws(mono gia entry)
-screen.bind('<Return>', startGame) #kathe fora p pataw t enter trexei thn startgame def
+ol.focus_set() 
+screen.bind('<Return>', startGame) 
 
 
 
