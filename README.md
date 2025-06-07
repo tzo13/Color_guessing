@@ -48,6 +48,6 @@ Just hit enter and go. The game starts when you press the Enter key.
 3. Try to beat your own high score before the timer hits zero.
 4. Brag about it. Or rage-quit. Both are valid options.
 
-[Screenshot (454)](https://github.com/user-attachments/assets/23828960-4c1a-47c6-beef-74aa03839b44)
+![Screenshot (454)](https://github.com/user-attachments/assets/7328b925-70b5-4dc7-83c5-2aeb8e6fc751)
 
 
